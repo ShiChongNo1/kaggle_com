@@ -1,0 +1,13 @@
+load:
+  train_path: 'data/deep-test.csv'
+  test_path: 'data/deep-test.csv'
+train:
+  train_scale: 0.8
+  val_scale: 0.1
+  epoch: 150
+  batch_size: 32
+  training_length: 10
+save:
+  model_path: 'save/model/'
+  loss_path: 'save/loss/'
+  predictions_path: 'save/predictions/'
